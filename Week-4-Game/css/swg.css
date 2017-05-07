@@ -1,0 +1,107 @@
+/*********************************************************
+*********************************************************
+*********************************************************
+*********************************************************
+*********************************************************/
+
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+audio {
+
+}
+
+#gameBoard {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	display: block;
+	min-height: 100%;
+	/*z-index: -2;*/
+}
+
+/****interior divs for game board to break game into sections**/
+	#gameHead {
+		width: 100%;
+		height: auto;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	#selectHead {
+		width: 100%;
+		height: auto;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	#fighterSelection {
+		width: 100%;
+		height: 120px;
+		margin: 0px;
+		padding: 0px;
+		max-height: 120px;
+		float: left;
+	}
+
+		.option {
+			width: 10%;
+			margin: 0px;
+			padding: 0px;
+			max-height: 115px;
+		}
+
+		.fighterImg {
+			height: 115px;
+		}
+
+	#enemySelection {
+		width: 100%;
+		height: 0px;
+		margin: 0px;
+		padding: 0px;
+	}
+
+		#enemyHead, .enBut {
+			display: none;
+		}
+
+	#arena {
+		width: 100%;
+		height: auto;
+		margin: 0px;
+		padding: 0px;
+	}
+
+#intro2 {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+	text-align: center; 
+	position: absolute;
+	display: block;
+	min-height: 100%;
+	/*z-index: -1;*/
+}
+
+#intro1 {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+	text-align: center;
+	position: absolute;
+	display: block;
+	min-height: 100%;
+	/*z-index: 0;*/
+}

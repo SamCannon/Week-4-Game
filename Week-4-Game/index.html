@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<title>Star Wars Galactic Duel!</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/swg.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/swg.css">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+
+	</head>
+
+	<body>
+
+		<header>
+				
+			<audio id="swgTheme" controls autoplay="true" volume="0.25">
+				<source src="swgTheme.mp3" type="audio/mpeg">
+			</audio>
+
+		</header>
+
+		<div id="gameBoard">
+			<div id="gameHead"><h1></h1></div>
+
+			<div id="selectHead"><h2>Choose Your Force Representative for the Star Wars Galactic Battle Arena!</h2></div>
+
+			<div id="fighterSelection">
+				<button class="option" id="option1"><img src="images/ogObi.jpg" class="fighterImg" height="115px"></button>
+				<button class="option" id="option2"><img src="images/vader.png" class="fighterImg" height="115px"></button>
+				<button class="option" id="option3"><img src="images/yoda.jpg" class="fighterImg" height="115px"></button>
+				<button class="option" id="option4"><img src="images/sidious.jpg" class="fighterImg" height="115px"></button>
+				<button class="option" id="option5"><img src="images/mace.jpg" class="fighterImg" height="115px"></button>
+			</div>
+
+			<div id="enemyHead"><h2>Choose Your Opponent!</h2></div>
+
+			<div id="enemySelection">
+				<button class="enBut" id="enemy1"></button>
+				<button class="enBut" id="enemy2"></button>
+				<button class="enBut" id="enemy3"></button>
+				<button class="enBut" id="enemy4"></button>	
+			</div>
+
+			<div id="arena">
+				<p id="you"></p>
+				<p id="headline"></p>
+				<p id="enemy"></p>
+			</div>
+
+		</div>
+
+		<div id="intro2"><img src="images/swgIntro2.jpg" width="75%"></div>
+
+		<div id="intro1"><img src="images/swgIntro.png" width="75%"></div>
+
+	</body>
+
+</html>
